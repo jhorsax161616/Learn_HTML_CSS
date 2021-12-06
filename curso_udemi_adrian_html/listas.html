@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+
+<!-- 
+    Las listas en HTML sirven para listar contenido. Hay 3 tipos:
+
+        ul -> unordered list: el orden de los elementos no influye
+            Atributos:
+                type: Estilos de los items(disc, square, circle)
+
+        ol -> ordered list: El orden de los lementos es importante
+            Atributos:
+                type: Estilo de numeracion (1, A, a, I, i)
+                start: Inicio de las seciecia (un número)
+
+        dl -> definition list: Se utiliza para hacer una lista de definiciones(diccionario)
+-->
+<body>
+    <h1>Listas</h1>
+
+    <h2>Listas desordenadas</h2>
+    <ul>
+        <li>Pan</li>
+        <li>Huevos</li>
+        <li>Leche</li>
+    </ul>
+    <ul type="square" >
+        <li>Pan</li>
+        <li>Huevos</li>
+        <li>Leche</li>
+    </ul>
+    <ul type="circle" >
+        <li>Pan</li>
+        <li>Huevos</li>
+        <li>Leche</li>
+    </ul>
+
+
+    <h2>Ranking de Programadores</h2>
+    <ol>
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>
+    </ol>
+    <ol type="i" start="4">
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>
+    </ol>
+    <ol type="a" start="7">
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>
+    </ol>
+
+    <h2>Listas de definicion</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language: Es un lenguage para estructurar datos en una página web</dd>
+    </dl>
+</body>
+</html>
