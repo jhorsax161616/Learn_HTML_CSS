@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes para mobile y pc</title>
+</head>
+<body>
+    <h1>Trabajar con Imagenes para Distintos tamaños de Pantalla</h1>
+
+    <img  srcset="/curso_udemi_adrian_html/contenido_embebido/assets/img/guitarra.webp, /curso_udemi_adrian_html/contenido_embebido/assets/img/guitarra_mobile.png 3x" alt="">
+
+    <h1>Etiqueta picture</h1>
+
+    <picture>
+        <!--<source srcset="
+        /curso_udemi_adrian_html/contenido_embebido/assets/img/guitarra.webp,
+        /curso_udemi_adrian_html/contenido_embebido/assets/img/guitarra_mobile.png 3x"> -->
+        <source srcset="
+        /curso_udemi_adrian_html/contenido_embebido/assets/img/guitarra_mobile.png" media="(max-width: 1200px)">
+        <img src="/curso_udemi_adrian_html/contenido_embebido/assets/img/padre.webp" alt="">
+    </picture>
+</body>
+</html>
