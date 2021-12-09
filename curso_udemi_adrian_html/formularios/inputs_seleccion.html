@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs de Selección</title>
+</head>
+<!--
+    radio -> Permite seleccionar una única opción de una lista
+
+        checked -> atributo del input para que aparezca como seleccionado por defecto en una opción
+        value -> Atributo importante, su valor será el que se envíe al servidor!!!
+    
+    checkbox -> Permite seleccionar varias opciones de una lista
+    
+    select -> Crea una lista de opciones donde podemos seleccionar una o varias opciones
+
+    Cada opción irá dentro de una etiqueta <option>
+
+    Si tenemos muchas opciones podemos ordenarlas por categorías a través de la etiqueta <optgroup> con el atributo """label""" para nombrar la categoria
+-->
+<body>
+    <h1>Elementos Seleccionables</h1>
+    <p>Por defecto nos permite seleccionar todos</p>
+    <form>
+        <label>Masculino
+            <input type="radio">
+        </label>
+        <label>Femineno
+            <input type="radio">
+        </label>
+        <label>Anonimo
+            <input type="radio">
+        </label>
+    </form>
+
+    <p>Si le agregmos el el mismo valor en el atributo name</p>
+    <form>
+        <label>Masculino
+            <input type="radio" name="gender" value="masculino">
+        </label>
+        <label>Femenino
+            <input type="radio" name="gender" checked value="femenino">
+        </label>
+        <label>Anonimo
+            <input type="radio" name="gender" value="anonimo">
+        </label>
+    </form>
+
+    <h2>Checkbox</h2>
+    <p>Permite seleccionar varias opciones de una lista</p>
+    <form>
+        <label>
+            <input type="checkbox" name="language" value="html">
+            HTML
+        </label>
+        <label>
+            <input type="checkbox" name="language" value="css">
+            CSS
+        </label>
+        <label>
+            <input type="checkbox" name="language" value="javascript" checked>
+            JavaScript
+        </label>
+    </form>
+
+    <h2>El elemento select </h2>
+    <p>Crea una lista de opciones donde podemos seleccionar una o varias opciones</p>
+    <select name="lenguajes">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+    </select>
+    <p>Con el atributo multiple podemos haceer que se pueda seleccionar varios</p>
+    <select name="lenguajes" multiple>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+    </select>
+    
+    <h3>Select Avanzado</h3>
+    <select name="mascotas">
+        <optgroup label="4 patas">
+            <option value="perro">perro</option>
+            <option value="gato">gato</option>
+            <option value="hamster">hamster</option>
+        </optgroup>
+        <optgroup label="aves">
+            <option value="loro">loro</option>
+            <option value="pato">pato</option>
+            <option value="paloma">paloma</option>
+        </optgroup>
+        <optgroup label="otras">
+            <option value="conejo">conejo</option>
+            <option value="pez">pez</option>
+        </optgroup>
+    </select>
+
+    <h2>Datalist</h2>
+    <p>Si el value es igual que el sobrenombre, entonces se hacen uno, o sea no aparece como descripción!!!</p>
+    <form>
+        <input type="list" list="pets">
+        <datalist id="pets">
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="hamster">Hamster</option>
+            <option value="loro">Loro</option>
+            <option value="pato">Pato</option>
+            <option value="paloma">Paloma</option>
+            <option value="conejo">Conejo</option>
+            <option value="pez">pez</option>
+        </datalist>
+    </form>
+</body>
+</html>
