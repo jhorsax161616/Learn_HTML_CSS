@@ -1,0 +1,47 @@
+body{
+    background-color: #333;
+}
+h1.title#title{
+    background-color: yellow;
+}
+
+h1{
+    background-color: pink;
+}
+
+.title{
+    background-color: purple;
+}
+
+#title{
+    background-color: royalblue;
+}
+
+h1.title{
+    background-color: rgb(255, 27, 27);
+}
+
+h1#title{
+    background-color: springgreen;
+}
+
+.title2{
+    color: cornflowerblue;
+    font-size: 10px;
+}
+
+/*Forzamdo herencia*/
+.text{
+    color: chocolate;
+}
+.link{
+    color: inherit;
+}
+
+/*Quitando la herencia*/
+.list{
+    color: greenyellow;
+}
+.item-extra{
+    color: initial;
+}
