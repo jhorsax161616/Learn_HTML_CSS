@@ -1,0 +1,60 @@
+/* SELECTORES */
+
+/* Selector Universal */
+*{
+    background-color: burlywood;
+}
+
+/* Selector de tipo o etiqueta */
+h1{
+    background-color: coral;
+}
+
+p{
+    background-color: darkgray;
+}
+/* Selector de atributo */
+#list{
+    background-color: chartreuse;
+}
+
+#item1{
+    background-color: cornflowerblue;
+}
+
+#item2{
+    background-color: crimson;
+}
+
+#item3{
+    background-color: darkmagenta;
+}
+/* Selector de Clase */
+.title{
+    background-color: darkturquoise;
+}
+.parrafo{
+    background-color: yellowgreen;
+}
+/* Otros atributos */
+[href]{
+    background-color: whitesmoke;
+}
+[href="#seccion-verde"]{
+    background-color: rgb(207, 67, 86);
+}
+[href^="#col"]{
+    background-color: rgb(255, 238, 7);
+}
+[href*="pata"]{
+    background-color: green;
+}
+[href$="ijo"]{
+    background-color: rgb(79, 161, 238);
+}
+[lang|="en"]{
+    background-color: hotpink;
+}
+footer{
+    background-color: teal;
+}

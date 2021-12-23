@@ -1,0 +1,28 @@
+/* [class^="text"]{
+    background-color: steelblue;
+} */
+
+/* Selectores Agrupados */
+.text,
+.text-2,
+.text-3,
+.text-4{
+    background-color: teal;
+}
+
+/* Selectores Descendientes */
+div .title-2{
+    background-color: violet;
+}
+
+.text-3 + h3{
+    background-color: chocolate;
+}
+
+.text-2 ~ h4{
+    background-color: palegreen;
+}
+
+.container > p{
+    background-color: pink;
+}
