@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: burlywood;
+}
+
+.text{
+    background-color: hotpink;
+    /* display: none; */
+    /* display: inline; */
+}
+.link{
+    background-color: lavenderblush;
+    /* display: block;
+    width: 100px;
+    margin-bottom: 20px; */
+    display: inline-block;
+    width: 100px;
+    margin-top: 50px;
+}
