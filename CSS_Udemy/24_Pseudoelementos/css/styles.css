@@ -1,0 +1,32 @@
+body {
+    background-color: #333;
+    color: blanchedalmond;
+    font-family: sans-serif;
+}
+
+.title::first-letter{
+    color: brown;
+    font-size: 2em;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.text::first-line{
+    color: cadetblue;
+    font-size: 25px;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+.text::selection{
+    color: violet;
+    background-color: lightslategray;
+}
+
+.dolar::before {
+    content: '$';
+}
+
+.dolar::after {
+    content: '.00';
+}
