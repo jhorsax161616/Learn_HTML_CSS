@@ -1,0 +1,29 @@
+body {
+    background-color: #333;
+    color: blanchedalmond;
+}
+
+.paragraph {
+    padding: .5em;
+    background: cadetblue;
+}
+
+.paragraph:empty {
+    padding: 0;
+    /* all:unset; */
+}
+
+.paragraph:first-child{
+    background: violet;
+}
+.paragraph:last-child{
+    background: yellowgreen;
+}
+
+.paragraph:nth-child(3n + 1){
+    color: tomato;
+}
+
+.paragraph:not(.yes){
+    background: lightslategray;
+}

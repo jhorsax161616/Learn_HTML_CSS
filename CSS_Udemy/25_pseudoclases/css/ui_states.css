@@ -1,0 +1,41 @@
+body {
+    background-color: #333;
+    color: blanchedalmond;
+}
+
+.input {
+    display: block;
+}
+
+.input:enabled{
+    background: cornflowerblue;
+}
+.input:disabled {
+    background: darkgreen;
+}
+
+.input:checked + label{
+    font-size: 2em;
+}
+
+.input:in-range {
+    background: cyan;
+}
+
+.input:out-of-range {
+    background: red;
+}
+
+.input:optional {
+    background: plum;
+}
+.input:required {
+    background: purple;
+}
+
+.input:valid {
+    background: hotpink;
+}
+.input:invalid {
+    background: black;
+}

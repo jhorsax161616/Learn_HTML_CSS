@@ -1,0 +1,59 @@
+body {
+    background: #333;
+    color: beige;
+}
+
+.link:link{
+    color: red;
+}
+
+.link:visited{
+    color: royalblue;
+}
+
+.link:active {
+    color: seagreen;
+    background-color: black;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    background: red;
+    color: #fff;
+    padding: .5em;
+    border-radius: 10px;
+}
+
+.button:active{
+    transform: scale(.9);
+}
+
+/* .button:hover{
+    color: red;
+    background: #fff;
+    transform: scale(1.2);
+    border: 1px solid red;
+    border-radius: 10px;
+} */
+
+.title:hover{
+    color: blueviolet;
+}
+
+.input:focus{
+    background: cyan;
+}
+
+.spn:lang(en){
+    background: lightblue;
+}
+.spn:lang(es){
+    background: lawngreen;
+    color: black;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.blink {
+    color: blanchedalmond;
+}
