@@ -1,0 +1,65 @@
+[class^="bg-"]{
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    border: 1px solid rebeccapurple;
+}
+
+body {
+    padding-bottom: 50em;
+    text-align: center;
+}
+
+.bg-color {
+    background-color: aqua;
+}
+
+.bg-image {
+    background-image: url(../assets/10.jpg);
+    background-size: contain;
+}
+
+.bg-size {
+    background-image: url(../assets/10.jpg);
+    background-size: cover;
+}
+
+.bg-repeat {
+    background-image: url(../assets/10.jpg);
+    background-size: 20%;
+    background-repeat: repeat-y;
+}
+
+.bg-position {
+    background-image: url(../assets/10.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.bg-origin {
+    background-origin: border-box;
+
+    border: 5px dotted red;
+    padding: 25px;
+    background-image: url(../assets/10.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-clip {
+    background-clip: border-box;
+
+    border: 5px dotted red;
+    padding: 25px;
+    background-image: url(../assets/10.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-attachment {
+    width: 100%;
+    background-image: url(../assets/10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
