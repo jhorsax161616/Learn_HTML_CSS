@@ -1,0 +1,28 @@
+body {
+    background-color: #333;
+}
+
+.title {
+    color: aliceblue;
+}
+
+.flex-container {
+    background-color: #FCA170;
+    display: flex;
+    height: 300px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    align-content: flex-end;
+}
+
+.flex-item {
+    width: 90px;
+    height: 30px;
+    margin: .5em;
+    line-height: 30px;
+    color: aliceblue;
+    text-align: center;
+    background-color: #9a348E;
+}
