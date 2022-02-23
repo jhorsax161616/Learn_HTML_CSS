@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #eee;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Para que los textos salten en una linea en los celulares */
+/* .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox__item {
+    margin: 2rem;
+    min-width: 320px;
+    flex: 1 1 320px;
+} */
+
+/* Otra forma de hacerlo con grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    padding: 1rem;
+}
+
+.baner {
+    background-color: rgb(44, 86, 165);
+    padding: 5vmin;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+
+}
+
+.footer {
+    background-color: lightslategray;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: auto;
+}
