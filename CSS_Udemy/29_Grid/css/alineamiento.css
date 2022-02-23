@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    color: #eee;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    background-repeat: no-repeat;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    height: 80vh;
+    border: 3px solid yellowgreen;
+    grid-template-columns: repeat(3, 100px);
+    /* justify-items: flex-start;
+    align-items: flex-start; */
+    place-items: center center;
+    /* justify-content: space-evenly;
+    align-content: space-around; */
+    place-content: center center;
+
+}
+
+.grid-item {
+    border: .5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
